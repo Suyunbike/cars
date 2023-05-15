@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: italic;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+body{
+    background-color:  mediumblue;
+}
+
+.wrapper {
+    width: 70%;
+    height: 100vh;
+    margin: 10vh auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 14px;
+    display: flex;
+    gap: 10px;
+}
+
+.wrapper .container {
+    padding-right: 1rem;
+}
+
+.wrapper .container ul li {
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper .container ul li:hover {
+    background-color: rgba(6, 59, 167, 0.1);
+}
+
+.wrapper .container ul li:active {
+    opacity: 3;
+}
+
+.wrapper .container ul li.active {
+    background-color: gray;
+}
+
+.wrapper .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .content img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.wrapper .content img.active{
+    display: block;
+}
+
+.car {
+    color: rgb(23, 24, 26);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h3 {
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}

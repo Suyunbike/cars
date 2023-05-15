@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <ul class="car">
+                <h1>CARS</h1>
+                <li class="menu-active" data-car="Lamborghini">
+                    Lamborghini
+                </li>
+                <li class="menu-active" data-car="bmw">
+                    BMW
+                </li>
+                <li class="menu-active" data-car="Ferrari">
+                    Ferrari
+                </li>
+                <li class="menu-active" data-car="Honda">
+                    Honda
+                </li>
+                <li class="menu-active" data-car="McLaren">
+                    McLaren
+                </li>
+            </ul>
+        </div>
+
+        <div class="content" id="content">
+            <img class="active" data-car="Lamborghini"
+                src="https://avatars.mds.yandex.net/i?id=56726d781bcfd9cc0bc12550aa5c7b1405ca77f5-9065979-images-thumbs&n=13"
+                alt="">
+            <h3> 30 октября 1963 г. Ферруччо Ламборгини, Стефано Доменикали</h3>
+            <p>Automobili Lamborghini S.p.A. - итальянская компания, производитель дорогих спортивных автомобилей под
+                маркой Lamborghini.</p>
+            <img class="active" data-car="bmw"
+                src="https://www.bmw.uz/content/dam/bmw/common/all-models/m-series/m8-gran-coupe/2022/navigation/bmw-m8-competition-gran-coupe-modelfinder.png"
+                alt="">
+            <h3>7 марта 1916 г. Норберт Райтхофер, Оливер Ципсе</h3>
+            <p>Немецкий производитель автомобилей, мотоциклов, двигателей, а также велосипедов. Более 45% акций
+                принадлежит семье Квандт. Председателем правления компании является Оливер Ципсе.</p>
+            <img class="active" data-car="Ferrari"
+                src="https://avatars.mds.yandex.net/i?id=7daffd7558044618a2b07b3d9bb47932534904a7-9233247-images-thumbs&n=13"
+                alt="">
+            <h3>13 сентября 1939 г.</h3>
+            <p>В 1929 году Энцо Феррари основал Scuderia Ferrari со штаб-квартирой в Модене.</p>
+            <img class="active" data-car="Honda"
+                src="https://avatars.mds.yandex.net/i?id=3f6dd8e611294bfa6a3ade7c0f82fd8a0c4c72a4-5233728-images-thumbs&n=13"
+                alt="">
+            <h3>2023 Honda Accord #1 in Mid-Size Cars 2023 Honda Accord</h3>
+            <p>Like the exterior, the Accord's cabin wears a sleek design with elements borrowed from the latest new
+                Hondas that help tie them together with familial DNA. </p>
+            <img class="active" data-car="McLaren"
+                src="https://avatars.mds.yandex.net/i?id=15a776ae830ec0b9294a284b5ecd8bd339243f46-6356076-images-thumbs&n=13"
+                alt="">
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
